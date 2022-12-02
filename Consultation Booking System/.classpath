@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="outlook/|webapp/src/taglib/|logging/|servlet/|client/|webapp/src/classes/" kind="src" path="javamail-1.4.5/demo"/>
+	<classpathentry kind="src" path="javamail-1.4.5/demo/client"/>
+	<classpathentry kind="src" path="javamail-1.4.5/demo/logging"/>
+	<classpathentry kind="src" path="javamail-1.4.5/demo/outlook"/>
+	<classpathentry kind="src" path="javamail-1.4.5/demo/servlet"/>
+	<classpathentry kind="src" path="javamail-1.4.5/demo/webapp/src/classes"/>
+	<classpathentry kind="src" path="javamail-1.4.5/demo/webapp/src/taglib"/>
+	<classpathentry kind="src" path="JDateChooser/src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="javamail-1.4.5/lib/dsn.jar"/>
+	<classpathentry kind="lib" path="javamail-1.4.5/lib/imap.jar"/>
+	<classpathentry kind="lib" path="javamail-1.4.5/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="javamail-1.4.5/lib/pop3.jar"/>
+	<classpathentry kind="lib" path="javamail-1.4.5/lib/smtp.jar"/>
+	<classpathentry kind="lib" path="javamail-1.4.5/mail.jar"/>
+	<classpathentry kind="lib" path="JDateChooser/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="JDateChooser/lib/jgoodies-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="JDateChooser/lib/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="JDateChooser/lib/junit-4.6.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,324 @@
+L001
+Library
+8/8/2019
+10:00
+S001
+
+L001
+Library
+8/8/2019
+11:00
+S002
+
+L001
+Block E Office
+8/8/2019
+13:00
+null
+
+L002
+Cafeteria
+7/8/2019
+09:30
+null
+
+L003
+Cafeteria
+8/8/2019
+11:00
+null
+
+L001
+Office Lounge
+14/7/2019
+10:00
+null
+
+L001
+Library
+14/7/2019
+09:00
+null
+
+L001
+Cafeteria
+14/7/2019
+12:00
+null
+
+L001
+Library
+13/7/2019
+10:00
+S001
+
+L001
+Block E Office
+6/8/2019
+09:00
+null
+
+L001
+Block A Office
+6/8/2019
+10:30
+null
+
+L001
+Block A Office
+6/8/2019
+10:00
+null
+
+L001
+Block A Office
+8/8/2019
+10:30
+null
+
+L001
+Block B Office
+8/8/2019
+11:30
+null
+
+L001
+Block D Office
+8/8/2019
+12:00
+null
+
+L001
+Block C Office
+8/8/2019
+12:30
+null
+
+L001
+Block E Office
+7/8/2019
+12:30
+null
+
+L001
+Office Lounge
+7/8/2019
+12:00
+null
+
+L001
+Office Lounge
+7/8/2019
+13:30
+null
+
+L002
+Library
+6/8/2019
+09:00
+null
+
+L002
+Block A Office
+6/8/2019
+09:30
+null
+
+L002
+Block B Office
+6/8/2019
+10:00
+null
+
+L002
+Block C Office
+7/8/2019
+10:00
+null
+
+L002
+Block D Office
+7/8/2019
+10:30
+null
+
+L002
+Library
+8/8/2019
+09:30
+null
+
+L002
+Block E Office
+8/8/2019
+10:00
+null
+
+L002
+Cafeteria
+8/8/2019
+10:30
+null
+
+L003
+Library
+6/8/2019
+09:00
+null
+
+L003
+Block A Office
+6/8/2019
+09:30
+null
+
+L003
+Block B Office
+6/8/2019
+10:00
+null
+
+L003
+Block C Office
+7/8/2019
+09:30
+null
+
+L003
+Block D Office
+7/8/2019
+10:00
+null
+
+L003
+Library
+7/8/2019
+10:30
+null
+
+L003
+Block A Office
+8/8/2019
+09:30
+null
+
+L003
+Block A Office
+8/8/2019
+10:00
+null
+
+L003
+Block B Office
+8/8/2019
+10:30
+null
+
+L004
+Library
+6/8/2019
+09:00
+null
+
+L004
+Cafeteria
+6/8/2019
+09:30
+null
+
+L004
+Block A Office
+6/8/2019
+10:00
+null
+
+L004
+Block C Office
+7/8/2019
+09:00
+null
+
+L004
+Block B Office
+7/8/2019
+09:30
+null
+
+L004
+Block D Office
+7/8/2019
+10:00
+null
+
+L004
+Library
+8/8/2019
+09:00
+null
+
+L004
+Cafeteria
+8/8/2019
+09:30
+null
+
+L004
+Block A Office
+8/8/2019
+10:00
+null
+
+L005
+Library
+6/8/2019
+09:00
+null
+
+L005
+Cafeteria
+6/8/2019
+09:30
+null
+
+L005
+Block A Office
+6/8/2019
+10:00
+null
+
+L005
+Block B Office
+7/8/2019
+09:00
+null
+
+L005
+Block C Office
+7/8/2019
+09:30
+null
+
+L005
+Block D Office
+7/8/2019
+10:00
+null
+
+L005
+Cafeteria
+8/8/2019
+10:00
+null
+
+L005
+Block A Office
+8/8/2019
+09:30
+null
+
+L005
+Cafeteria
+8/8/2019
+09:00
+null
+

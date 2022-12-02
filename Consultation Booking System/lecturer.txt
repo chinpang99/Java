@@ -1,0 +1,40 @@
+L001
+Wu Ka Hin
+pass1
+khkahin139@gmail.com
+pic1.png
+01234567890
+School of Computing
+
+L002
+Joe
+pass2
+joe@gmail.com
+pic2.png
+01246841501
+School of Foundation
+
+L003
+Jimmy
+pass3
+jimmy@gmail.com
+pic3.jpeg
+01650635189
+School of Engineering
+
+L004
+Sammy
+pass4
+sammy@gmail.com
+pic4.jpg
+01984536548
+School of Management
+
+L005
+Ali
+pass5
+ali@gmail.com
+pic5.jpg
+01684512015
+School of Media Arts and Design
+
