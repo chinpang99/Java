@@ -1,0 +1,7 @@
+Coffee Cake,15,3,45
+Espresso,15,2,30
+Coffee Cake,10,3,30
+Coffee Cake,10,3,30
+Coffee Cake,10,2,20
+Coffee Cake,10,4,40
+Coffee Cake,10,3,30

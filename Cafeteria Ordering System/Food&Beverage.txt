@@ -1,0 +1,8 @@
+Espresso,15,Beverage,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\image.jpg
+Coffee Cake,10,Food,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\image.jpg
+Iced Cappucino,7,Beverage,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\image.jpg
+Mocha,7,Beverage,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\image.jpg
+Lattle,7,Beverage,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\image.jpg
+Nasi Ayam,15,Food,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\imageee.jpg
+Fried Rice,11,Food,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\imageeee.jpg
+HIHIHI,11,Food,C:\Users\Pang\Documents\NetBeansProjects\Assignment\src\Cafeteria_Ordering_System\Pictures\imageee.jpg

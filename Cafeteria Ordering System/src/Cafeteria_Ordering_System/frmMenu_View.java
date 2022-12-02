@@ -1,0 +1,205 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Cafeteria_Ordering_System;
+
+import java.awt.Color;
+import java.awt.Cursor;
+import java.awt.FlowLayout;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.LineNumberReader;
+import java.util.Scanner;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+
+/**
+ *
+ * @author Pang
+ */
+public class frmMenu_View extends javax.swing.JFrame {
+
+    /**
+     * Creates new form frmMenu_View
+     */
+    public frmMenu_View()
+    {
+        initComponents();
+    }
+    public frmMenu_View(String Name) {
+        initComponents();
+                
+        lblFoodType.setText(Name);
+        File file = new File("Food&Beverage.txt");
+        String Line1;
+        
+        JPanel contentPane = new JPanel();
+        JLabel g = new JLabel("View my Cart");
+        g.setIcon(new ImageIcon("C:\\Users\\Pang\\Documents\\NetBeansProjects\\Assignment\\src\\Cafeteria_Ordering_System\\Pictures\\previous.png"));
+        contentPane.setLayout(new FlowLayout(FlowLayout.LEFT, 20, 20));
+        contentPane.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 2));
+                
+        g.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        g.addMouseListener(new MouseAdapter()  
+        {  
+            public void mouseClicked(MouseEvent e)  
+            {  
+               // you can open a new frame here as
+               // i have assumed you have declared "frame" as instance variable
+               
+               new frmViewMenu().setVisible(true);
+               dispose();
+
+            }  
+        });
+
+        try
+        {
+            FileReader fr = new FileReader(file);
+            LineNumberReader lr = new LineNumberReader(fr);
+            Scanner Sc1 = new Scanner(file);
+            int lineNumberCount = 0;
+            
+            try{
+                while(lr.readLine()!=null)
+                {
+                    lineNumberCount++;
+                    while(Sc1.hasNextLine())
+                    {
+                        Line1 = Sc1.nextLine();
+                        String UserLine[] = Line1.split(",");
+                        JPanel[] leftPanel = new JPanel[lineNumberCount];
+                        JPanel[] buttonLeftPanel = new JPanel[lineNumberCount];
+                        JLabel[] resetButton = new JLabel[lineNumberCount];
+                        JLabel[] resetButtonn = new JLabel[lineNumberCount];
+                        JPanel[] labelPanel = new JPanel[lineNumberCount];
+
+                        
+                        if(UserLine[2].equals(lblFoodType.getText()))
+                        { 
+                        //JLabel positionLabel = new JLabel(UserLine[0]);
+                        for (int i =0; i <lineNumberCount; i ++) 
+                            {
+                                leftPanel[i] = new JPanel();  
+                                resetButtonn[i] = new JLabel(UserLine[0], JLabel.CENTER);
+                                leftPanel[i].setBorder(BorderFactory.createLineBorder(Color.BLUE, 2));
+                                leftPanel[i].setLayout(new BoxLayout(leftPanel[i], BoxLayout.Y_AXIS)); 
+                                labelPanel[i] = new JPanel();
+                                buttonLeftPanel[i] = new JPanel();
+
+                                resetButton[i] = new JLabel();
+                                String [] imagesnames = {UserLine[3]};
+                                resetButton[i].setIcon(new ImageIcon(imagesnames[i]));
+                                
+                                
+                                buttonLeftPanel[i].add(resetButtonn[i]);
+                                labelPanel[i].add(resetButton[i]);
+                                leftPanel[i].add(labelPanel[i]);
+                                leftPanel[i].add(buttonLeftPanel[i]);
+                                contentPane.add(leftPanel[i]);
+                                contentPane.add(g);
+
+                            }
+                        
+                    }
+                                                }
+                }
+            }catch (IOException Ex)
+            {
+                
+            }
+        }catch(IOException Ex)
+            {
+                
+            }
+        
+        setContentPane(contentPane);
+        pack();
+        //setLocationByPlatform(true);
+        setVisible(true);
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        lblFoodType = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        lblFoodType.setText("jLabel1");
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(154, 154, 154)
+                .addComponent(lblFoodType)
+                .addContainerGap(205, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(87, 87, 87)
+                .addComponent(lblFoodType, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(185, Short.MAX_VALUE))
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(frmMenu_View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(frmMenu_View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(frmMenu_View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(frmMenu_View.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new frmMenu_View().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JLabel lblFoodType;
+    // End of variables declaration//GEN-END:variables
+}
